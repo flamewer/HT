@@ -3,9 +3,6 @@
     <output-path>$PROJECT_DIR$/webapp/target</output-path>
     <root id="archive" name="webapp.war">
       <element id="artifact" artifact-name="webapp:war exploded" />
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/webapp/src/main/webapp/META-INF/MANIFEST.MF" />
-      </element>
     </root>
   </artifact>
 </component>
